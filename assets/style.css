@@ -1,0 +1,86 @@
+:root {
+  --font-color: #adf0d1;
+}
+
+body {
+  background-color: #00203f;
+  color: white;
+  font-family: Poppins;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+.home,
+.service,
+.work,
+.about {
+  height: 100vh;
+
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  transition: .4s;
+
+
+}
+
+.nav {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu {
+  position: fixed;
+  bottom: 1rem;
+  width: 90%;
+  /* width: 80%; */
+  background-color: hsl(224, 50%, 31%);
+  border-radius: 3.5rem;
+  padding: 0.5rem 2.25rem 0.5rem 0rem;
+  /* padding: 0.5rem 2.25rem; */
+  backdrop-filter: blur(10px);
+  transition: .4s;
+
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  color: var(--font-color);
+  font-size: 1.23rem;
+  padding: .3rem;
+  display: flex;
+  border-radius: 5rem;
+}
+
+.active__link {
+  background: linear-gradient(180deg,
+          hsla(var(--font-color), 66%, 75%, 1),
+          hsla(120, 66%, 75%, 1));
+  box-shadow: 0 0 16px hsla(120, 66%, 75%, 4);
+  color: white;
+}
