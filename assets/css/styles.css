@@ -143,17 +143,17 @@ the website, in dark theme
 ==========*/
 
 .dark-theme .steps__bg,
-.dark-theme .questions {}
+.dark-theme .questions 
 
-.dark-theme .product__circle,
-.dark-theme .footer__subscribe {
-  background-color: var(--container-color);
-}
-
-.dark-theme .scroll-header {
-  box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, 0.3);
-}
-
+  .dark-theme .product__circle,
+  .dark-theme .footer__subscribe {
+    background-color: var(--container-color);
+  }
+  
+  .dark-theme .scroll-header {
+    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, 0.3);
+  }
+  
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 5.5rem 0 1rem;
@@ -253,7 +253,6 @@ the website, in dark theme
   height: 70.7px;
 }
 
-
 .newsletter {
   background-color: var(--first-color-dark);
   display: flex;
@@ -261,7 +260,6 @@ the website, in dark theme
   align-items: center;
   border-radius: 1rem 1rem 1rem 1rem;
   padding: 4.5rem 0 4.25rem 0;
-
 }
 
 @media screen and (max-width: 767px) {
@@ -301,6 +299,12 @@ the website, in dark theme
 }
 
 .nav__link:hover {
+  border-bottom: 1px solid var(--first-color);
+  scroll-behavior: smooth;
+}
+
+
+.nav__link:hover {
   color: var(--first-color);
 }
 
@@ -314,25 +318,10 @@ the website, in dark theme
   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, 0.1);
 }
 
-/* Active link */
-.active-link {
-  position: relative;
-  color: var(--first-color);
-}
-
-.active-link::after {
-  content: "";
-  position: absolute;
-  bottom: -0.5rem;
-  left: 0;
-  width: 50%;
-  height: 2px;
-  background-color: var(--first-color);
-}
 
 /*=============== HOME ===============*/
 .home {
-  padding: 3.5rem 0 2rem;
+  padding: 3.5rem 10rem;
 }
 
 .home__font {
@@ -346,6 +335,7 @@ the website, in dark theme
 
 .home__img {
   width: 200px;
+  margin-bottom: 12rem;
   justify-self: center;
 }
 
@@ -404,11 +394,9 @@ the website, in dark theme
 
 .infordados {
   display: flex;
-
 }
 
 .infor {
-
   justify-content: flex-start;
   padding: 48px 64px 0px 0px;
 }
@@ -455,6 +443,36 @@ the website, in dark theme
   transform: translateX(0.25rem);
 }
 
+/*=============== ABOUT US INSTITUCIONAL ===============*/
+
+.section_about_us_container {
+ row-gap: 3rem;
+}
+
+.about_container_us {
+  margin: auto;
+  margin-bottom: var(--mb-1);
+  padding: 12rem;
+}
+
+.about_container_tittle {
+  margin-bottom: var(--mb-1);
+}
+
+.about_content {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.about_content_p {
+ margin-bottom: var(--mb-1);
+ 
+}
+
+
+
+
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 3rem;
@@ -498,7 +516,6 @@ the website, in dark theme
 }
 
 .steps__bg {
-
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -506,7 +523,13 @@ the website, in dark theme
 .steps__container {
   gap: 2rem;
   padding-top: 1rem;
+  justify-content: center;
 }
+
+.detal {
+ color: #f55e00;
+}
+
 
 .steps__title {
   color: #fff;
@@ -543,10 +566,10 @@ the website, in dark theme
 }
 
 .img-project {
-  width: 296px;
-  height: 243px;
-  background-color: #F55E00;
-  border-radius: 1rem
+  width: 260px;
+  height: 232px;
+  background-color: #f55e00;
+  border-radius: 1rem;
 }
 
 .title-project {
@@ -584,7 +607,6 @@ the website, in dark theme
 .product__img5 {
   z-index: 1;
 }
-
 
 .product__title,
 .product__price {
@@ -780,7 +802,7 @@ the website, in dark theme
 }
 
 /*Input focus move up label*/
-.contact__input:focus+.contact__label {
+.contact__input:focus + .contact__label {
   top: -0.75rem;
   left: 0;
   font-size: var(--smaller-font-size);
@@ -788,7 +810,8 @@ the website, in dark theme
 }
 
 /*Input focus sticky top label*/
-.contact__input:not(:placeholder-shown).contact__input:not(:focus)+.contact__label {
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)
+  + .contact__label {
   top: -0.75rem;
   font-size: var(--smaller-font-size);
   z-index: 10;
@@ -803,13 +826,18 @@ the website, in dark theme
   display: inline-flex;
   align-items: center;
   column-gap: 0.5rem;
-  color: var(--title-color);
+  color: var(--first-color);
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -1px;
   margin-bottom: var(--mb-2-5);
   transition: 0.3s;
 }
+
+.footer_detail {
+  color: var(--first-color);
+}
+
 
 .footer__logo-icon {
   font-size: 1.15rem;
@@ -846,9 +874,13 @@ the website, in dark theme
   padding: 1rem;
 }
 
+.footer__button1 {
+  margin-top: 25px;
+}
+
 .footer__data {
   display: grid;
-  row-gap: 0.75rem;
+  row-gap: 1.5rem;
 }
 
 .footer__information {
