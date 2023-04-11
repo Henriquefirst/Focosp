@@ -117,11 +117,11 @@ img {
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color-dark: hsl(var(--hue), 8%, 20%);
+  --first-color-dark: #121317;
   --title-color: hsl(var(--hue), 4%, 95%);
   --text-color: hsl(var(--hue), 4%, 75%);
-  --body-color: hsl(var(--hue), 8%, 12%);
-  --container-color: hsl(var(--hue), 8%, 16%);
+  --body-color: #1A1C23;
+  --container-color: #121317;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -450,7 +450,6 @@ the website, in dark theme
 }
 
 .about_container_us {
-  margin: auto;
   margin-bottom: var(--mb-1);
   padding: 12rem;
 }
@@ -459,19 +458,96 @@ the website, in dark theme
   margin-bottom: var(--mb-1);
 }
 
-.about_content {
-  margin-top: 1rem;
+.about_content p {
+  margin-top: 2rem;
+
+}
+
+.about_container{
+  column-count: 2;
+padding: 10px 0px 10px;
+
+}
+
+
+
+/*==================== Valores FOCOSP ====================*/
+
+.section_valores {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  justify-content: center;
 }
 
-.about_content_p {
- margin-bottom: var(--mb-1);
- 
+.container_valores {
+  display: grid;
+  padding: 5rem 0;
+  grid-column: 2;
+}
+
+.valores_img {
+ max-width: 85%;
+ padding: 1rem;
+ justify-self: center;
+ margin-top: 2rem;
+}
+
+.intro_valores {
+  margin-bottom: var(--mb-2);
+}
+
+.intro_valores h1 {
+  font-size:  var(--h1-font-size);
+}
+
+.intro_valores span {
+  color: #f55e00;
+  font-size:  var(--small-font-size);
+}
+
+.intro_valores p {
+  margin-top: 2rem;
+}
+
+.container_valores_focosp {
+  margin-bottom: var(--mb-1-5);
+  margin-right: 3.5rem;
+  font-size:  var(--small-font-size);
+  position: relative;
+
+}
+
+.itens_valores {
+  border: 1px solid var(--text-color-light);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.icon_valores {
+  display: grid;
+  position: absolute;
+}
+
+.icon_valores2 {
+  display: grid;
+  position: absolute;
+  left: 11.5px;
+}
+
+.questions_valores {
+  padding: 5px;
 }
 
 
+.title_valores {
+  margin-left: 3rem;
+  cursor: pointer;
+}
 
+.content_valores {
+  overflow: hidden;
+  height: 0;
+}
 
 /*=============== ABOUT ===============*/
 .about__container {
@@ -481,6 +557,7 @@ the website, in dark theme
 .about__img {
   width: 280px;
   justify-self: center;
+  grid-column: 1;
 }
 
 .about__title {
@@ -778,7 +855,7 @@ the website, in dark theme
   padding: 1rem 1rem 1rem 0;
   background: none;
   color: var(--text-color);
-
+  
   border: none;
   outline: none;
   z-index: 1;
@@ -862,7 +939,7 @@ the website, in dark theme
 }
 
 .footer__input {
-  width: 70%;
+  width: 90%;
   padding: 0 0.5rem;
   background: none;
   color: var(--text-color);
