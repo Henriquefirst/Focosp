@@ -346,8 +346,7 @@ the website, in dark theme
 }
 
 .home__img {
-  width: 300px;
-  margin-bottom: 12rem;
+  max-width: 100%;
   justify-self: center;
 }
 
@@ -488,6 +487,7 @@ padding: 10px 0px 10px;
 .section_valores {
   display: grid;
   justify-content: center;
+  align-items: center;
 }
 
 .container_valores {
@@ -499,8 +499,9 @@ padding: 10px 0px 10px;
 .valores_img {
  max-width: 85%;
  padding: 1rem;
- justify-self: center;
+ justify-self: start;
  margin-top: 2rem;
+ margin-bottom: 3rem;
 }
 
 .intro_valores {
@@ -523,15 +524,15 @@ padding: 10px 0px 10px;
 .container_valores_focosp {
   margin-bottom: var(--mb-1-5);
   margin-right: 3.5rem;
-  font-size:  var(--small-font-size);
+  font-size:  var(--smaller-font-size);
   position: relative;
-
+  right: 10px;
 }
 
 .itens_valores {
-  border: 1px solid var(--text-color-light);
+  border: 3px solid #121317;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
 }
 
@@ -543,7 +544,7 @@ padding: 10px 0px 10px;
 .icon_valores2 {
   display: grid;
   position: absolute;
-  left: 11.5px;
+  left: 22px;
 }
 
 .questions_valores {
