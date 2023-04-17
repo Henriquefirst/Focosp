@@ -506,6 +506,7 @@ padding: 10px 0px 10px;
 
 .container_valores p {
   color: var(--text-color);
+  padding: 10px;
 }
 
 
@@ -518,14 +519,14 @@ details summary::marker {
 .icon_valores {
   display: grid;
   position: absolute;
-  padding-left: 24rem;
-  margin-top: 10px;
+  padding-left: 22rem;
+  margin-top: 15px;
 }
 
 .icon_valores2 {
  position: absolute;
- margin-top: 10px;
- padding-left: 23.7rem;
+ margin-top: 15px;
+ padding-left: 21.8rem;
 }
 
 
@@ -549,6 +550,91 @@ details summary::marker {
   color: #f55e00;
   font-size:  var(--small-font-size);
 }
+
+/*=============== TRABALHE CONOSCO CSS  ===============*/
+
+
+/*=============== VAGAS ABERTAS  ===============*/
+
+.content_vagas {
+  display: grid;
+  padding: 5rem 10rem;
+}
+
+.content_vagas span {
+  justify-content: center;
+  color: var(--first-color);
+  padding: 0rem;
+  font-size: var(--normal-font-size);
+}
+
+.container_vagas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin-top: 10rem 1rem;
+  padding: 0rem;
+}
+
+.vagas_intro {
+  padding: 3rem 3rem;
+  justify-content: start;
+  display: grid;
+  font-size: var(--h1-font-size);
+}
+
+.conteudo_vagas {
+  padding: 2rem 0rem 2rem;
+  padding-left: 3rem;
+  margin-right: 1rem;
+  border-radius: 12px;
+  margin: 2rem;
+  background-color: #121317;
+}
+
+.vagas_tittle {
+ margin-bottom: 2rem;
+
+}
+
+.vagas_description {
+  font-size: var(--text-color);
+  margin-bottom: 2rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.vagas_button {
+  color: #fff;
+  font-size: var(--small-font-size);
+  background: var(--first-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*=============== ABOUT ===============*/
 .about__container {
@@ -666,7 +752,7 @@ details summary::marker {
 .product__container {
   padding: 3rem 0;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem 3rem;
+  gap: 2.5rem 0rem;
 }
 
 .product__card {
