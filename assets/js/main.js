@@ -33,28 +33,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 function scrollHeader(){
     const header = document.getElementById('header')
     // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
-    if(this.scrollY >= 80) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== QUESTIONS ACCORDION ===============*/
-const accordionItems = document.querySelectorAll('.questions__item')
-
-accordionItems.forEach((item) =>{
-    const accordionHeader = item.querySelector('.questions__header')
-
-    accordionHeader.addEventListener('click', () =>{
-        const openItem = document.querySelector('.accordion-open')
-
-        toggleItem(item)
-
-        if(openItem && openItem!== item){
-            toggleItem(openItem)
-        }
-    })
-})
-
-const toggleItem = (item) =>{
+function toggleItem(item) {
     const accordionContent = item.querySelector('.questions__content')
 
     if(item.classList.contains('accordion-open')){
@@ -134,6 +116,39 @@ const sr = ScrollReveal({
     // reset: true
 })
 
+const accordionContent = document.querySelectorAll(".accordion-content");
+ 
+accordionContent.forEach((item, index)  =>{
+let header = item.querySelector("header");
+    header.addEventListener("click", () =>{
+        item.classList.toggle("open");
+
+        let description = item.querySelector(".description");
+        if(item.classList.contains("open")){
+            description.style.height = `${description.scrollHeight}px`;
+            item.querySelector("i").classList.replace("ri-add-line", "questions__icon");
+        }else{
+            description.style.height = "0px";
+            item.querySelector("i").classList.replace("questions__icon", "ri-add-line");
+        }
+        
+        removeOpen(index);
+    })
+})
+
+function removeOen(Index1){
+    accordionContent.forEach((item2, index2) => {
+     if(Index1 != index2){
+      item2.classList.remove("open");
+
+      let des = item2.querySelector(".description")
+      des.style.height = "0px";
+      item2.querySelector("i").classList.replace("questions__icon", "ri-add-line");
+     }
+
+    })
+}
+    
 sr.reveal(`.home__data`)
 sr.reveal(`.home__img`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
@@ -142,3 +157,4 @@ sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
 sr.reveal(`.steps__card, .product__card, .questions__group, .footer`,{interval: 100})
 sr.reveal('.section_about_us_container, .section_valores, .newsletter', {delay: 600})
 sr.reveal('.content_vagas', {delay: 600})
+

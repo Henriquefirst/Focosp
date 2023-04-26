@@ -1,6 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -81,7 +82,7 @@ textarea {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  margin: var(--header-height);
   background-color: var(--body-color);
   color: var(--text-color);
   transition: 0.4s;
@@ -143,7 +144,7 @@ the website, in dark theme
 ==========*/
 
 .dark-theme .steps__bg,
-.dark-theme .questions 
+.dark-theme .questions
 
   .dark-theme .product__circle,
   .dark-theme .footer__subscribe {
@@ -151,7 +152,7 @@ the website, in dark theme
   }
   
   .dark-theme .scroll-header {
-    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, 0.3);
+   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, 0.3);  
   }
   
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -343,11 +344,17 @@ the website, in dark theme
   position: relative;
   row-gap: 2rem;
   gap: 5rem;
+  padding-left: 2rem;
 }
 
 .home__img {
-  max-width: 100%;
-  justify-self: center;
+  display: block;
+  max-width: 85%;
+  padding-bottom: 15rem; 
+}
+
+.home__data {
+  padding-bottom: 0rem;
 }
 
 .home__title {
@@ -466,7 +473,7 @@ the website, in dark theme
 }
 
 .about_container_tittle {
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-);
 }
 
 .about_content p {
@@ -485,71 +492,110 @@ padding: 10px 0px 10px;
 /*==================== Valores FOCOSP ====================*/
 
 .section_valores {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-.content_valores {
-  padding: 1.5rem;
-  grid-column: 2;
+ display: grid;
+  row-gap: 2rem;
+  margin: 2rem;
+  grid-template-columns: 2fr 2fr;
+  padding: 5.5rem 0 1rem;
 }
 
-.container_valores {
-  display: grid;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #686868;
-  border-radius: 4px;
-  position: relative;
-  color: var(--title-color);
+ .img_valores {
+  max-width: 60%;
+  margin-left: 11rem;
+  margin-top: -3rem;
 }
 
-.container_valores p {
-  color: var(--text-color);
-  padding: 10px;
+.icon_content {
+  margin-top: 10px;
+  margin-right: -20px;
 }
 
-
-details summary::marker {
-  color: #f55e00;
-  transition: 2s;
+.intro_valores{
+  font-size: var(--h2-font-size);
+  grid-template-columns: 2fr;
+  margin-bottom: 1.5rem;
 }
 
-
-.icon_valores {
-  display: grid;
-  position: absolute;
-  padding-left: 22rem;
-  margin-top: 15px;
-}
-
-.icon_valores2 {
- position: absolute;
- margin-top: 15px;
- padding-left: 21.8rem;
-}
-
-
-.valores_img {
- max-width: 80%;
- padding: 1rem;
- justify-self: start;
- margin-top: 2rem;
- margin-bottom: 3rem;
-}
-
-.intro_valores {
-  margin-bottom: var(--mb-2);
-}
-
-.intro_valores h1 {
-  font-size:  var(--h1-font-size);
+.intro_valores p {
+font-size: var(--normal-font-size);
 }
 
 .intro_valores span {
-  color: #f55e00;
-  font-size:  var(--small-font-size);
+  font-size: var(--normal-font-size);
 }
+
+.container_content {
+  margin: -2rem;
+  margin-bottom: 10rem;
+}
+
+.accordion {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 2px;
+  margin: -1rem;
+  margin-top: 10px;
+  box-shadow: 0 0 px rgba(0, 0, 0, 0.2);
+}
+
+
+.accordion .accordion-content {
+  border: solid 1px var(--text-color-light);
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+
+.icon_content {
+  max-width: 100%;
+  position: absolute;
+  right: 28rem;
+  margin-top: 12px;
+}
+
+.accordion-content header {
+  display: flex;
+  padding: 0 15px 10px;
+  box-shadow: all ;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.accordion-content header i {
+  font-size: 22px;
+  margin-top: 15px;
+  color: var(--title-color);
+}
+
+.accordion-content.open {
+  padding-bottom: 10px;
+}
+
+.accordion-content.open header {
+  min-width: 35px;
+  transition: 3.s ;
+}
+
+
+.tittle {
+  color: var( --title-color);
+  padding: 5px 40px;
+  margin-top: 10px;
+}
+
+.accordion-content .description {
+  height: 0;
+  padding: 0 15px;
+  transition: all 0.2s linear;
+}
+
+.img_valores_foco {
+  max-width: 60%;
+  margin-left: 11rem;
+}
+
 
 /*=============== TRABALHE CONOSCO CSS  ===============*/
 
@@ -564,16 +610,14 @@ details summary::marker {
 .content_vagas span {
   justify-content: center;
   color: var(--first-color);
-  padding: 0rem;
   font-size: var(--normal-font-size);
 }
 
 .container_vagas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 10rem 1rem;
-  padding: 0rem;
 }
 
 .vagas_intro {
@@ -585,8 +629,8 @@ details summary::marker {
 
 .conteudo_vagas {
   padding: 2rem 0rem 2rem;
-  padding-left: 3rem;
-  margin-right: 1rem;
+  padding-left: 2rem;
+  margin-right: 21rem;
   border-radius: 12px;
   margin: 2rem;
   background-color: #121317;
@@ -614,27 +658,6 @@ details summary::marker {
   border-radius: 5px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*=============== ABOUT ===============*/
 .about__container {
@@ -680,7 +703,7 @@ details summary::marker {
 }
 
 .steps__bg {
-  padding: 3rem 2rem 2rem;
+  padding: 3rem 1rem 2rem;
   border-radius: 1rem;
 }
 
@@ -691,7 +714,7 @@ details summary::marker {
 }
 
 .detal {
- color: #f55e00;
+ color: var(--first-color);
 }
 
 
@@ -700,8 +723,7 @@ details summary::marker {
 }
 
 .steps__card {
-  background-color: var(--first-color-dark);
-  padding: 0.875rem 0.75rem 1.188rem 0.75rem;
+  justify-content: space-between;
   border-radius: 1rem;
 }
 
@@ -1034,13 +1056,11 @@ details summary::marker {
   outline: none;
 }
 
-.footer__button {
-  padding: 1rem;
-}
 
 .footer__button1 {
   margin-top: 25px;
 }
+
 
 .footer__data {
   display: grid;
