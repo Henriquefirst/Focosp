@@ -132,7 +132,7 @@ let header = item.querySelector("header");
             item.querySelector("i").classList.replace("questions__icon", "ri-add-line");
         }
         
-        removeOpen(index);
+        removeOen(index);
     })
 })
 
