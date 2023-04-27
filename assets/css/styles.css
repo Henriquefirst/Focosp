@@ -540,7 +540,7 @@ font-size: var(--normal-font-size);
 
 
 .accordion .accordion-content {
-  border: solid 1px var(--text-color-light);
+  border: solid 2px rgba(49, 46, 73, 0.308);
   margin: 15px;
   overflow: hidden;
   border-radius: 5px;
