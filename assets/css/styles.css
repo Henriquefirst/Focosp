@@ -175,6 +175,7 @@ the website, in dark theme
   max-width: 968px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
+  grid-template-columns: 2fr 2fr;
 }
 
 .grid {
@@ -243,8 +244,9 @@ the website, in dark theme
 
 .project__content {
   height: 100px;
-  width: 231px;
-  padding: 33px;
+  width: 250px;
+  padding: 34px;
+  margin-right: 10px;
   flex-direction: column;
   justify-content: center;
 }
@@ -344,13 +346,13 @@ the website, in dark theme
   position: relative;
   row-gap: 2rem;
   gap: 5rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 
 .home__img {
   display: block;
   max-width: 85%;
-  padding-bottom: 15rem; 
+  padding-bottom: 13rem; 
 }
 
 .home__data {
@@ -412,11 +414,12 @@ the website, in dark theme
 
 .infordados {
   display: flex;
+  padding-top: 1rem;
 }
 
 .infor {
   justify-content: flex-start;
-  padding: 48px 64px 0px 0px;
+  padding: 28px 63px 0px 0px;
 }
 
 .textinfor {
@@ -464,7 +467,7 @@ the website, in dark theme
 /*=============== ABOUT US INSTITUCIONAL ===============*/
 
 .section_about_us_container {
- row-gap: 3rem;
+ row-gap: 0rem;
 }
 
 .about_container_us {
@@ -497,11 +500,12 @@ the website, in dark theme
   margin: 2rem;
   grid-template-columns: 2fr 2fr;
   padding: 5.5rem 0 1rem;
+  padding: 2.5rem;
 }
 
  .img_valores {
-  max-width: 60%;
-  margin-left: 11rem;
+  max-width: 65%;
+  margin-left: 9rem;
   margin-top: -3rem;
 }
 
@@ -535,7 +539,6 @@ font-size: var(--normal-font-size);
   border-radius: 2px;
   margin: -1rem;
   margin-top: 10px;
-  box-shadow: 0 0 px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -592,8 +595,9 @@ font-size: var(--normal-font-size);
 }
 
 .img_valores_foco {
-  max-width: 60%;
+  max-width: 63%;
   margin-left: 11rem;
+  margin-top: 0rem;
 }
 
 
@@ -1048,8 +1052,8 @@ font-size: var(--normal-font-size);
 }
 
 .footer__input {
-  width: 90%;
-  padding: 0 0.5rem;
+  width: 100%;
+  padding: 10px 0.5rem;
   background: none;
   color: var(--text-color);
   border: none;
@@ -1145,7 +1149,41 @@ font-size: var(--normal-font-size);
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+
+
+@media screen and (max-width: 800px) {
+  .home__container {
+  justify-content: center;
+  padding-left: 1rem;
+  }
+  .home_data {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+  .home__img {
+  max-width: 100%;
+  }
+  .home__title {
+    font-size: var(--mb-2-5);
+  }
+  }
+
+ @media screen and (max-width: 500px) {
+  .infordados {
+    padding-right: 2rem;
+  }
+.home__description {
+ font-size: 1.4ch;
+}
+.footer__subscribe {
+  padding-right: 6rem;
+}
+.button--flex {
+  max-width: 50%;
+}
+}
+
+@media screen and (max-width: 350px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1169,7 +1207,6 @@ font-size: var(--normal-font-size);
 
   .product__container {
     grid-template-columns: 0.6fr;
-    justify-content: center;
   }
 }
 
@@ -1192,6 +1229,9 @@ font-size: var(--normal-font-size);
   .footer__subscribe {
     width: 400px;
   }
+  .project__content {
+    width: 100%;
+}
 }
 
 @media screen and (min-width: 767px) {
@@ -1388,6 +1428,6 @@ font-size: var(--normal-font-size);
 
 @media screen and (max-width: 500px) {
   .button--flex {
-    margin-bottom: -30px;
+    margin-bottom: 0px;
   }
 }
