@@ -1,0 +1,275 @@
+
+/*==================== Valores FOCOSP ====================*/
+
+.section_valores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+ 
+  }
+  .intro_valores{
+    font-size: var(--h2-font-size);
+  
+  }
+  
+  .intro_valores p {
+  font-size: var(--normal-font-size);
+  }
+  
+  .intro_valores span {
+    font-size: var(--normal-font-size);
+  }
+ 
+  .accordion {
+   width: 100%;
+   height: 40%;
+   
+  }
+  
+  
+  .accordion .accordion-content {
+    border: solid 2px rgba(49, 46, 73, 0.308);
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .icon_content {
+   width: 1.5rem;
+   height: 1.5rem;
+   margin-top: 0.8rem;
+   
+  }
+  
+  .accordion-content header {
+    display: flex;
+    padding: 0 15px 10px;
+    box-shadow: all;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+  
+  .accordion-content header i {
+    font-size: 22px;
+    margin-top: 15px;
+    color: var(--title-color);
+    position: relative;
+  }
+  
+  .accordion-content.open {
+    padding-bottom: 10px;
+  }
+  
+  .accordion-content.open header {
+    min-width: 35px;
+    transition: 3.s ;
+  }
+  
+  
+  .tittle_valores_icon {
+   color: var( --title-color);
+   font-size: var( --small-font-size);
+   margin-top: 0.9rem;
+   margin-left: 3rem;
+   text-align: start;
+   position: absolute;
+  }
+  
+  .accordion-content .description {
+    height: 0;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+  }
+  
+  .img_valores_foco {
+    max-width: 63%;
+    margin-left: 11rem;
+    margin-top: 0rem;
+  }
+  .img_valores {
+   width: 20rem;
+   height: 28rem;
+ }
+
+
+  @media(max-width: 480px) {
+   .img_valores {
+     width: 20rem;
+     margin-bottom: 3rem;
+     margin-left: 2rem;
+      
+   }
+
+   .section_valores {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-top: 8rem;
+     width: 100%;
+     
+     
+     }
+     
+ .icon_content {
+   width: 1.2rem;
+   height: 1.2rem;
+ 
+ 
+  }
+
+  .tittle_valores_icon {
+   color: var( --title-color);
+   font-size: 0.75rem;
+   margin-top: 0.9rem;
+   padding-left: 0.3rem;
+  }
+  
+  .icon3 {
+   
+   padding-right: 1.7rem;
+  }
+
+  .accordion-content {
+   width: 105%;
+ }
+ .accordion {
+  width: 97%;
+  }
+
+  .intro_valores{
+   margin-left: 2rem;
+   margin-bottom: 2rem;
+ 
+ }
+ 
+  }
+
+  @media(min-width: 480px) and (max-width: 680px){
+   .img_valores {
+     width: 20rem;
+     margin-bottom: 3rem;
+     margin-left: 12%;
+      
+   }
+
+  
+   .icon3 {
+     padding-right: 1.7rem;
+    }
+ 
+
+  .tittle_valores_icon {
+   margin-top: 0.9rem;
+  }
+
+  .accordion-content {
+   width: 100%;
+ }
+ .accordion {
+  width: 100%;
+  padding-left: 0.1rem;
+  }
+  .tittle_valores_icon {
+    font-size: 0.7rem;
+    margin-left: 2rem;
+    top: 0px;
+  }
+  .accordion-content header i {
+    margin-top: 10px;
+  }
+
+  .intro_valores{
+   margin-left: 1.2rem;
+   margin-bottom: 1rem;
+ 
+ }
+
+ .container_content{
+   padding-left: 2.5rem;
+   padding-right: 2.5rem;
+ }
+  }
+
+  @media(min-width: 680px) and (max-width: 982px){
+   .img_valores {
+     width: 20rem;
+     margin-bottom: 3rem;
+     margin-left: 30%;
+      
+   }
+
+  .tittle_valores_icon {
+   margin-top: 0.9rem;
+   }
+
+  .accordion-content {
+   width: 100%;
+ }
+ .accordion {
+  width: 100%;
+  padding-left: 2rem;
+  }
+
+  .intro_valores{
+   margin-left: 3rem;
+   margin-bottom: 1rem;
+ 
+ }
+
+ .container_content{
+   padding-left: 15%;
+ }
+  }
+
+
+ @media(min-width: 982px)and (max-width: 1280px){
+
+   .img_valores {
+     width: 18rem;
+     max-height: 25rem;
+     margin-bottom: 4rem;
+   
+      
+   }
+   .container_content{
+     margin-left: 2rem;
+   }
+
+   .intro_valores{
+     margin-left: 1rem;
+     margin-bottom: 1rem;
+   
+   }
+
+   .section_valores {
+    padding-left: 5%;
+    
+     }
+ }
+
+ @media(min-width: 1200px){
+
+   .img_valores {
+     width: 22rem;
+     max-height: 30rem;
+   }
+     
+   .container_content{
+     margin-left: 3rem;
+   }
+
+   .intro_valores{
+     margin-left: 1rem;
+     margin-bottom: 1rem;
+   
+   }
+
+   .section_valores {
+    padding-left: 15%;
+    
+     }
+ }
+  

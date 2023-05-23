@@ -1,0 +1,45 @@
+   /* <<<<<<<<<<<<<<<<< menu mobile >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  
+   @media screen and (max-width: 767px) {
+
+    .nav__mobile{
+      position: fixed;
+      padding: 0.5rem;
+      right: 15%;
+      left: 15%;
+      bottom: 3%;
+      z-index: var(--z-tooltip);
+     
+    }
+    .nav__menu__mobile{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #1A1C23;
+      height: 4rem;
+      border-radius: 1rem;
+    }
+    .nav__list__mobile{
+      width: 30rem;
+      display: flex;
+      justify-content: space-evenly;
+      
+    }
+    .nav__item__mobile{
+     flex-direction: row;
+     
+    }
+  
+    
+  }
+  
+  @media screen and (min-width:767px){
+    
+    .nav__link__mobile{
+      display: none;
+      
+    }
+  }
+
+
+  
