@@ -1,0 +1,164 @@
+.newsletter__input {
+  width: 100%;
+  padding: 10px 0.5rem;
+  background: none;
+  color: var(--text-color);
+  border: none;
+  outline: none;
+}
+
+.newsletter__description {
+  margin-bottom: var(--mb-2-5);
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.newsletter_container{
+  width: 90%;
+  padding-left: 10%;
+  margin-top: 4rem;
+}
+
+.newsletter__title{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.newsletter {
+  width: 100%;
+  background-color:#23262f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem 1rem 1rem 1rem;
+  padding: 4rem 2rem;
+}
+
+.newsletter__subscribe {
+  background-color: #fff;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.newsletter__button {
+ 
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+  
+}
+
+@media screen and (max-width: 580px){
+  .newsletter_container{
+      width: 100%;
+      padding-left: 10%;
+    
+    }
+
+    .newsletter__description {
+      width: 100%;
+      font-size: 0.65rem;
+      margin-top: 1rem;
+     }
+
+    .newsletter__title{
+      font-size: 1rem;
+     
+    }
+
+    .newsletter__input {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    .newsletter__button {
+      padding: 1rem 1.2rem;
+      font-size: 0.8rem;
+    
+    }
+
+   .newsletter__subscribe{
+      width: 110%;
+   }
+}
+
+
+@media screen and (min-width: 580px){
+  .newsletter_container{
+      width: 100%;
+      padding-left: 10%;
+    
+    }
+    
+  .newsletter__description {
+      
+      width: 100%;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+     }
+  .newsletter__title{
+      font-size: 1.7rem;
+     
+    }
+  .newsletter__subscribe {
+      width: 100%;
+
+    }
+
+    .newsletter__button {
+      padding: 1rem 1.2rem;
+      font-size: 1rem;
+    
+    }
+
+
+    .newsletter__input {
+      width: 100%;
+     
+    }
+}
+
+@media screen and (min-width: 767px){
+  .newsletter_container{
+      width: 90%;
+      padding-left: 10%;
+    
+    }
+    
+  .newsletter__description {
+      
+      width: 50%;
+      font-size: 1rem;
+      margin-top: 1rem;
+     }
+  .newsletter__title{
+      font-size: 1.7rem;
+     
+    }
+  .newsletter__subscribe {
+      width: 80%;
+    }
+
+    .newsletter__button {
+      padding: 1rem 1.2rem;
+      font-size: 1rem;
+    
+    }
+
+
+    .newsletter__input {
+      width: 100%;
+     
+    }
+}
+

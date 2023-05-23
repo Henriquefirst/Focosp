@@ -11,8 +11,26 @@
     <!--=============== REMIX ICONS ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
+      <!--=============== slick ===============-->
+      <link rel="stylesheet" type="text/css" href="./assets/js/slick-1.8.1/slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="./assets/js/slick-1.8.1/slick/slick-theme.css">
+      <link rel="stylesheet" href="./assets/css/components/vagasAbertas.css">
+      <link rel="stylesheet" href="./assets/css/components/slickButton.css">
+
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/components/vagasAbertas.css">
+    <link rel="stylesheet" href="./assets/css/header/menuMobile.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/components/home.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/components/contact.css">
+    <link rel="stylesheet" href="./assets/css/components/newsletter.css">
+    <link rel="stylesheet" href="./assets/css/components/scroll.css">
+    <link rel="stylesheet" href="./assets/css/components/aboutUs.css">
+    
+
+
 
     <title>Focosp</title>
 </head>
@@ -38,16 +56,12 @@
                         <a href="produtos.html" class="nav__link">Produtos</a>
                     </li>
                     <li class="nav__item">
-                        <a href="trabalhoconosco.html" class="nav__link">Trabalhe Conosco</a>
+                        <a href="trabalhoconosco.html" class="nav__link ">Trabalhe Conosco</a>
                     </li>
 
                     <div class="nav__btns">
                         <!-- Theme change button -->
                         <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                        <div class="nav__toggle" id="nav-toggle">
-                            <i class="ri-menu-line"></i>
-                        </div>
                     </div>
 
                     <li class="nav__item">
@@ -55,39 +69,52 @@
                     </li>
 
                 </ul>
-
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
             </div>
 
+            <div class="nav__mobile">
+                <div class="nav__menu__mobile" >
+                    <ul class="nav__list__mobile">
+                        <li class="nav__item__mobile">
+                            <a href="./index.html" class="nav__link__mobile"><img src="./assets/img/house-door (1).svg" alt=""></a>
+                        </li>
+                        <li class="nav__item__mobile ">
+                           
+                            <a href="institucional.html" class="nav__link__mobile"><img src="./assets/img/person-circle.svg" alt=""></a>
+                        </li>
+                        <li class="nav__item__mobile">
+                            <a href="institucional.html" class="nav__link__mobile"><img src="./assets/img/p-circle.svg" alt=""></a>
+                        </li>
+                        <li class="nav__item__mobile">
+                            <a href="trabalhoconosco.html" class="nav__link__mobile"><img src="./assets/img/suitcase-icon.svg" alt=""></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
         </nav>
     </header>
 
     <main class="main">
         <!--==================== HOME ====================-->
-        <section class="home" id="home">
-            <div class="home__container container grid">
-                <img src="assets/img/home (1) 1.png" alt="" class="home__img">
-
-                <div class="home__data">
+        <section class="home_section" id="home">
+            <div class="home__container">
+               <div class="home__data">
                     <h1 class="home__title">
                         Escutar, <br> Entender,<br><b class="home__font">Atender.</b>
                     </h1>
                     <p class="home__description">
                         Veja o real motivo pelo qual a FOCOSP
-                        é uma empresa <br>tão procurada por clientes no Mundo da Tecnologia!
-                    </p>
-                    <div class="footer__subscribe">
-                        <input type="E-mail" placeholder="Escreva seu e-mail" class="footer__input">
-
-                        <button class="button button--flex footer__button">
+                        é uma empresa <br>tão procurada por clientes no Mundo da Tecnologia!</p>
+                    <div class="home__subscribe">
+                        <input type="E-mail" placeholder="Escreva seu e-mail" class="home__input">
+        
+                        <button class="button_home">
                             Inscrever
                         </button>
-
+        
                     </div>
+        
                     <div class="infordados">
-                        <div class="infor">
+                        <div >
                             <h1 class="textinfor">
                                 30<b class="home__font">+</b>
                             </h1>
@@ -95,9 +122,9 @@
                                 Funcionários</br>
                                 Ativos
                             </p>
-
+        
                         </div>
-
+        
                         <div class="infor">
                             <h1 class="textinfor">
                                 15<b class="home__font">+</b>
@@ -106,9 +133,9 @@
                                 anos de </br>
                                 Experiência
                             </p>
-
+        
                         </div>
-
+        
                         <div class="infor">
                             <h1 class="textinfor">
                                 50<b class="home__font">+</b>
@@ -117,195 +144,217 @@
                                 Projetos</br>
                                 Entregues
                             </p>
-
+        
                         </div>
-                    </div>
+                   </div>
+               </div>
+               <img src="./assets/img/home (1) 1.png" alt="" class="home__img">
+           </div>
+           
+
+            
+            <!----------------------Projetos-------------->
+
+            
+           
+            <div class="project__container">
+                <div class="project__content1">
+                    <img src="assets/img/logo1.png" alt="" class="img_produtos">
+               
+                    <img src="assets/img/logo2.png" alt="" class="img_produtos">
+                </div>
+
+                <div class="project__content2">
+                    <img src="assets/img/logo3.png" alt="" class="img_produtos">
+                
+                    <img src="assets/img/Everest Logo Azul APP.png" alt="image" class="img_produtos">
                 </div>
             </div>
-
-            <!----------------------Projetos---------------->
-
-
-            <footer class="footer section">
-                <div class="project__container container grid">
-                    <div class="project__content">
-                        <img src="assets/img/logo1.png" alt="">
-                    </div>
-
-                    <div class="project__content">
-                        <img src="assets/img/logo2.png" alt="">
-                    </div>
-
-                    <div class="project__content">
-                        <img src="assets/img/logo3.png" alt="">
-                    </div>
-
-                    <div class="project__content">
-                        <img src="assets/img/Everest Logo Azul APP.png" alt="image" class="imgruim">
-                    </div>
-                </div>
-            </footer>
-
+       
+        
+                
 
 
 
         </section>
-
+    
 
 
         <!--====================Sobre Nós====================-->
-        <section class="about section container" id="about">
-            <div class="about__container grid">
-                <img src="assets/img/about.png" alt="" class="about__img">
 
-                <div class="about__data">
-                    <p class="home__font">A FOCOSP</p>
-                    <h2 class="section__title about__title">
-                        Conheça + sobre a gente<b class="home__font">.</b>
-                    </h2>
+        <section class="section_about_us_container" id="about">
+            <div class="about_container_us-geral">
+                <img src="assets/img/about.png" alt="" class="about__img margin__aboutUs ">
 
-                    <p class="about__description">
-                        Nosso maior sonho era tornar a conexão entre as
-                        pessoas e a tecnologia cada vez mais funcional e
-                        criativa, ideal que se mantém até a atualidade.
-                    </p>
+                <div class="about__container-geral margin__aboutUs">
+                    
+                    <div class="about__data">
+                        <p class="home__font">A FOCOSP</p>
+                        <h2 class="section__title about__title">
+                            Conheça + sobre a gente<b class="home__font">.</b>
+                        </h2>
 
-                    <div class="about__details">
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Possuimos mais de 15 anos de experiência;
+                        <p class="about__description">
+                            Nosso maior sonho era tornar a conexão entre as
+                            pessoas e a tecnologia cada vez mais funcional e
+                            criativa, ideal que se mantém até a atualidade.
                         </p>
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Projetos nacionais e internacionais;
-                        </p>
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            +30 colaboradores em todo o país;
-                        </p>
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Focados em entregar o melhor resultado, sempre!
-                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                             <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Possuimos mais de 15 anos de experiência;
+                            </p>
+                            <p class="about__details-description">
+                            <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Projetos nacionais e internacionais;
+                            </p>
+                            <p class="about__details-description">
+                            <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                +30 colaboradores em todo o país;
+                            </p>
+                            <p class="about__details-description">
+                            <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Focados em entregar o melhor resultado, sempre!
+                            </p>
+                        </div>
+
+
+                       
+                        <div class="button_aboutUs_container">
+                            <a href="#products" class="button_aboutUs">
+                                Saiba mais <i class="ri-arrow-right-down-line button__icon"></i>
+                            </a>
+                        </div>
                     </div>
-
-
-                    <a href="#products" class="button button--flex footer__button">
-                        Saiba mais <i class="ri-arrow-right-down-line button__icon"></i>
-                    </a>
                 </div>
-            </div>
+            </div> 
         </section>
 
         <!--==================== Portfólio ====================-->
-        <section class="steps section container">
-            <div class="steps__bg">
-                <span class="detal">Oficial FOCOSP</span>
-                <h1 class="title_steps">Conheça nosso portfólio<b class="home__font">.</b></h1>
+                
 
-                <div class="steps__container grid">
-                    <div class="steps__card">
-                        <div class="img-project"> </div>
-                        <H1 class="title-project"> Radial Cursos</H1>
-                        <p class="text-project">Repaginação, design e atualização total do website da Radial Cursos,
-                            especialistas no ensino
-                            automotivo.
-                        </p>
-                        <a href="#" class="button button--flex footer__button">
-                            Saiba mais <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
+                <section class="carrousel">
+                    <div class="slider_title_container">
+                        <span class="detal">Oficial FOCOSP</span>
+                        <h1 class="slider_title">Conheça nosso portfólio<b class="home__font">.</b></h1>
                     </div>
-
-                    <div class="steps__card">
-                        <div class="img-project"> </div>
-                        <H1 class="title-project"> Everest CRM</H1>
-                        <p class="text-project">Unido à Plataforma Everest, é uma potente ferramenta para empresas de
-                            diversos setores.
-                        </p>
-                        <a href="#" class="button button--flex footer__button1">
-                            Saiba mais <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
+               
+                    <div class="regular slider">
+                        <div class="card_jobs">
+                             <img class="card_img" src=" ./assets/img/fundo-laranja-liso4.png" alt="">
+                            <h4 class="card_jobs_subtitle">Setor de atuação</h4>
+                            <p class="card_jobs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia?</p>
+                            <button class="card_jobs_button">Candidatar-se</button>
+                        </div>
+                        <div class="card_jobs">
+                             <img class="card_img" src=" ./assets/img/fundo-laranja-liso4.png" alt="">
+                            <h4 class="card_jobs_subtitle">Setor de atuação</h4>
+                            <p class="card_jobs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia?</p>
+                            <button class="card_jobs_button">Candidatar-se</button>
+                        </div>
+                        <div class="card_jobs">
+                             <img class="card_img" src=" ./assets/img/fundo-laranja-liso4.png" alt="">
+                            <h4 class="card_jobs_subtitle">Setor de atuação</h4>
+                            <p class="card_jobs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia?</p>
+                            <button class="card_jobs_button">Candidatar-se</button>
+                        </div>
+                        <div class="card_jobs">
+                             <img class="card_img" src=" ./assets/img/fundo-laranja-liso4.png" alt="">
+                            <h4 class="card_jobs_subtitle">Setor de atuação</h4>
+                              <p class="card_jobs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia?</p>
+                            <button class="card_jobs_button">Candidatar-se</button>
+                        </div>
+                        <div class="card_jobs">
+                            <img class="card_img" src=" ./assets/img/fundo-laranja-liso4.png" alt="">
+                            <h4 class="card_jobs_subtitle">Setor de atuação</h4>
+                              <p class="card_jobs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia?</p>
+                            <button class="card_jobs_button">Candidatar-se</button>
+                        </div>
+                        <div class="card_jobs">
+                             <img class="card_img" src="./assets/img/fundo-laranja-liso4.png" alt="">
+                            <h4 class="card_jobs_subtitle">Setor de atuação</h4>
+                            <p class="card_jobs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia?</p>
+                            <button class="card_jobs_button">Candidatar-se</button>
+                        </div>
+                    
+                     
                     </div>
-
-                    <div class="steps__card">
-                        <div class="img-project"> </div>
-                        <H1 class="title-project"> G&G Marketplace</H1>
-                        <p class="text-project">O Marketplace criado e desenvolvido pela FOCOSP para o mercado nacional
-                            e internacional.
-                        </p>
-                        <a href="#" class="button button--flex footer__button">
-                            Saiba mais <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="btnslide">
-
-                </div>
-            </div>
-        </section>
+                    
+                    <div class="custom-arrows">
+                       
+                       
+                      </div>
+                    </section>
 
         <!--==================== TRABALHE CONOSCO ====================-->
-        <section class="about section container" id="about">
-            <div class="about__container grid">
-                <img src="assets/img/trabalhe-home.png" alt="" class="about__img">
+        <section class="section_about_us_container" id="about">
+            <div class="about_container_us-geral">
+             
+                
+                <img src="assets/img/trabalhe-home.png" alt="" class="about__img margin__aboutUs">
 
-                <div class="about__data">
-                    <p class="home__font">Junte-se ao Time FOCOSP</p>
-                    <h2 class="section__title about__title">
-                        Trabalhe conosco<b class="home__font">.</b>
-                    </h2>
+                <div class="about__container-geral margin__aboutUs">
+                    
+                    <div class="about__data">
+                        <p class="home__font">Junte-se ao Time FOCOSP</p>
+                        <h2 class="section__title about__title">
+                            Trabalhe conosco<b class="home__font">.</b>
+                        </h2>
 
-                    <p class="about__description">
-                        Una-se a uma Empresa que sabe o que faz:
-                        atuamos no mercado a mais de 15 anos e temos muito a
-                        oferecer aos nossos colaboradores!
-                    </p>
+                        <p class="about__description">
+                            Una-se a uma Empresa que sabe o que faz:
+                            atuamos no mercado a mais de 15 anos e temos muito a
+                            oferecer aos nossos colaboradores!
+                        </p>
 
-                    <div class="about__details">
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Vagas de Estágio para todas as Áreas da Tecnologia;
-                        </p>
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Vagas Remotas para pessoas em todo o Brasil - e no exterior!
-                        </p>
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Empresa compromissada com clientes e funcionários;
-                        </p>
-                        <p class="about__details-description">
-                            <i class="ri-checkbox-fill about__details-icon"></i>
-                            Uma equipe focada e completamente apaixonada 😍
-                        </p>
+                        <div class="about__details">
+                            <p class="about__details-description">
+                            <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Vagas de Estágio para todas as Áreas da Tecnologia;
+                            </p>
+                            <p class="about__details-description">
+                            <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Vagas Remotas para pessoas em todo o Brasil - e no exterior!
+                            </p>
+                            <p class="about__details-description">
+                             <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Empresa compromissada com clientes e funcionários;
+                            </p>
+                            <p class="about__details-description">
+                            <img class="about__details-icon-img" src="./assets/img/guarantee icon.png" alt="">
+                                Uma equipe focada e completamente apaixonada 😍
+                            </p>
+                        </div>
+                        
+                        <div class="button_aboutUs_container">
+                            <a href="#products" class="button_aboutUs">
+                                Confira nossas Vagas <i class="ri-arrow-right-down-line button__icon"></i>
+                            </a>
+                        </div>
+                        
                     </div>
-
-
-                    <a href="#products" class="button button--flex footer__button">
-                        Confira nossas Vagas <i class="ri-arrow-right-down-line button__icon"></i>
-                    </a>
                 </div>
             </div>
         </section>
 
         <!--  Newsletter-->
-        <section class="about section container" id="about">
-            <div class="grid">
+        <section class="newsletter__section" id="about">
+            <div class="newsletter_container">
                 <div class="newsletter">
 
-                    <h2 class="section__title">
+                    <h2 class="newsletter__title">
                         Conheça a Newsletter FOCOSP
                     </h2>
 
-                    <p class="home__description">
-                        Inscreva-se e receba semanalmente conteúdos</br>
+                    <p class="newsletter__description ">
+                        Inscreva-se e receba semanalmente conteúdos
                         sobre o Mundo da Tecnologia no seu e-mail 😍
                     </p>
-                    <div class="footer__subscribe">
-                        <input type="E-mail" placeholder="Escreva seu e-mail" class="footer__input">
+                    <div class="newsletter__subscribe">
+                        <input type="E-mail" placeholder="Escreva seu e-mail" class="newsletter__input">
 
-                        <button class="button button--flex footer__button">
+                        <button class="newsletter__button">
                             Inscrever
                         </button>
 
@@ -317,8 +366,8 @@
         </section>
 
         <!--==================== CONTACT ====================-->
-        <section class="contact section container" id="">
-            <div class="contact__container grid">
+        <section class="contact" id="">
+            <div class="contact__container ">
                 <div class="contact__box">
                     <h2 class="section__title">
 
@@ -371,7 +420,7 @@
                         </div>
                     </div>
 
-                    <button class="button button--flex">
+                    <button class="button_contact">
                         Envie seu Currículo
                         <i class="ri-arrow-right-up-line button__icon"></i>
                     </button>
@@ -381,81 +430,88 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer section">
-        <div class="footer__container container grid">
-            <div class="footer__content">
-                <a href="#" class="footer__logo">
-                    FOCOSP
-                    <img src="assets/img/logofocosp(2).png" alt="">
-                </a>
-                <p class="footer__information">
-                    Especialistas em Design e Desenvolvimentode
-                    Apps, Softwares, Websites e muito mais!
-                    focosp@focosp.com
-                </p>
+    <footer class="footer">
+        <div class="footer__container ">
 
-
-
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Institucional</h3>
-
-                <ul class="footer__data">
-                    <li class="footer__information">Sobre Nós</li>
-                    <li class="footer__information">Produtos</li>
-                    <li class="footer__information">Trabalhe Conosco</li>
-                </ul>
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Produtost</h3>
-
-                <ul class="footer__data">
-                    <li class="footer__information">Everest</li>
-                    <li class="footer__information">Everest Chat</li>
-                    <li class="footer__information">G&G Market</li>
-                </ul>
-            </div>
-
-
-            <div class="footer__content">
-                <h3 class="footer__title">Support</h3>
-
-                <ul class="footer__data">
-                    <li class="footer__information">FAQs</li>
-                    <li class="footer__information">Support center</li>
-                    <li class="footer__information">Contate-nos</li>
-                </ul>
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Redes Sociais </h3>
-
-                <ul class="footer__data">
-
-
-                    <div class="footer__social">
-                        <a href="#" class="footer__social-link">
-                            <i class="ri-facebook-fill"></i>
-                        </a>
-                        <a href="#" class="footer__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="#" class="footer__social-link">
-                            <i class="ri-whatsapp-fill"></i>
-                        </a>
+                <div class="footer__content1">
+                    <a href="#" class="footer__logo">
+                        FOCOSP
+                        <img src="assets/img/logofocosp(2).png" alt="">
+                    </a>
+                    <p class="footer__information">
+                        Especialistas em Design e Desenvolvimentode
+                        Apps, Softwares, Websites e muito mais!<br>
+                        focosp@focosp.com
+                    </p>
+                </div>
+           
+                <div class="footer__container__itens">
+                    <div class="footer__content">
+                        <h3 class="footer__title">Institucional</h3>
+        
+                        <ul class="footer__data">
+                            <li class="footer__information">Sobre Nós</li>
+                            <li class="footer__information">Produtos</li>
+                            <li class="footer__information">Trabalhe Conosco</li>
+                        </ul>
                     </div>
-                </ul>
+        
+                    <div class="footer__content">
+                        <h3 class="footer__title">Produtos</h3>
+        
+                        <ul class="footer__data">
+                            <li class="footer__information">Everest</li>
+                            <li class="footer__information">Everest Chat</li>
+                            <li class="footer__information">G&G Market</li>
+                        </ul>
+                    </div>
+        
+        
+                    <div class="footer__content">
+                        <h3 class="footer__title">Support</h3>
+        
+                        <ul class="footer__data">
+                            <li class="footer__information">FAQs</li>
+                            <li class="footer__information">Support center</li>
+                            <li class="footer__information">Contate-nos</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer__content">
+                        <h3 class="footer__title">Redes Sociais </h3>
+        
+                        <ul class="footer__data">
+        
+        
+                            <div class="footer__social">
+                                <a href="#" class="footer__social-link">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                                <a href="#" class="footer__social-link">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                                <a href="#" class="footer__social-link">
+                                    <i class="ri-whatsapp-fill"></i>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+               
             </div>
+           
 
             <div class="footer__content">
 
-            </div>
+            
         </div>
-
+       
+         
         <p class="footer__copy">&#169; FOCOSP, 2023. All rights reserved.</p>
+
+       
     </footer>
+
 
     <!--=============== SCROLL UP ===============-->
     <a href="#" class="scrollup" id="scroll-up">
@@ -467,6 +523,12 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
+       <!--=============== Slick ===============-->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./assets/js/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="./assets/js/slider.js"></script>
+</body>
+ 
 </body>
 
 </html>

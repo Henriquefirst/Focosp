@@ -49,7 +49,7 @@ function toggleItem(item) {
 
 }
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+/*=============== SCROLL SECTIONS ACTIVE LINK ===============
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -60,6 +60,7 @@ function scrollActive(){
               sectionTop = current.offsetTop - 58,
               sectionId = current.getAttribute('id')
 
+              console.log(sectionId)
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         }else{
@@ -150,11 +151,13 @@ function removeOen(Index1){
 }
     
 sr.reveal(`.home__data`)
-sr.reveal(`.home__img`, {delay: 500})
+sr.reveal(`.home__img, .content_vagas`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
 sr.reveal(`.steps__card, .product__card, .questions__group, .footer`,{interval: 100})
-sr.reveal('.section_about_us_container, .section_valores, .newsletter', {delay: 600})
-sr.reveal('.content_vagas', {delay: 600})
+sr.reveal('.section_about_us_container, .newsletter', {delay: 600})
+
+
+
 

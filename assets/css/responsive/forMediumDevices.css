@@ -1,0 +1,87 @@
+/*=============== BREAKPOINTS ===============*/
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .steps__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .product__description {
+      padding: 0 4rem;
+    }
+  
+    .product__container {
+      grid-template-columns: repeat(2, 170px);
+      justify-content: center;
+      column-gap: 5rem;
+    }
+  
+    .footer__subscribe {
+      width: 400px;
+    }
+    .project__content {
+      width: 100%;
+  }
+  }
+  
+  @media screen and (min-width: 767px) {
+    body {
+      margin: 0;
+    }
+  
+    .nav {
+      height: calc(var(--header-height) + 1.5rem);
+      column-gap: 3rem;
+    }
+  
+    .nav__toggle,
+    .nav__close {
+      display: none;
+    }
+  
+    .nav__list {
+      flex-direction: row;
+      column-gap: 3rem;
+    }
+  
+    .nav__menu {
+      margin-left: auto;
+    }
+  
+    .home__container,
+    .about__container,
+    .questions__container,
+    .contact__container,
+    .footer__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .home {
+      padding: 10rem 0 5rem;
+    }
+  
+    .home__container {
+      align-items: center;
+    }
+  
+    .home__img {
+      width: 280px;
+      order: 1;
+    }
+  
+    .home__social {
+      top: 30%;
+    }
+  
+    .questions__container {
+      align-items: flex-start;
+    }
+  
+    .footer__container {
+      column-gap: 3rem;
+    }
+  
+    .footer__subscribe {
+      width: initial;
+    }
+  }

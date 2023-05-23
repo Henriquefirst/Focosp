@@ -1,0 +1,205 @@
+/*=============== CONTACT ===============*/
+
+  
+.contact__subtitle {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+  margin-bottom: var(--mb-0-5);
+}
+
+.contact__description {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.link__color {
+  color: var(--title-color);
+}
+
+.contact__icon {
+  font-size: 1.25rem;
+}
+
+.contact__inputs {
+  display: grid;
+  row-gap: 2rem;
+  margin-bottom: var(--mb-2-5);
+}
+
+.contact__content {
+  position: relative;
+  height: 3rem;
+  border-bottom: 1px solid var(--text-color-light);
+}
+
+.contact__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1rem 1rem 0;
+  background: none;
+  color: var(--text-color);
+  
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+.contact__label {
+  position: absolute;
+  top: 0.75rem;
+  width: 100%;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  transition: 0.3s;
+}
+
+.contact__area {
+  height: 7rem;
+}
+
+.contact__area textarea {
+  resize: none;
+}
+
+/*Input focus move up label*/
+.contact__input:focus + .contact__label {
+  top: -0.75rem;
+  left: 0;
+  font-size: var(--smaller-font-size);
+  z-index: 10;
+}
+
+/*Input focus sticky top label*/
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)
+  + .contact__label {
+  top: -0.75rem;
+  font-size: var(--smaller-font-size);
+  z-index: 10;
+}
+
+@media screen and (min-width: 880px){
+  .contact__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 10%;
+
+  }
+  .contact__form{
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+   }
+
+   .button_contact{
+       background-color: var(--first-color);
+       color: #fff;
+       padding:1rem 2rem;
+       border-radius: 0.5rem;
+      }
+   .contact__box{
+       width: 25%;
+       }
+      
+  .contact__form{
+       width: 40%;
+      }
+ 
+
+  .contact__data{
+        margin-top: 2rem;
+      }
+  
+
+   }
+@media screen and (max-width: 880px){
+  .contact__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+
+  }
+  
+
+   .button_contact{
+       background-color: var(--first-color);
+       color: #fff;
+       padding:1rem 2rem;
+       border-radius: 0.5rem;
+      }
+   .contact__box{
+       width: 40%;
+       margin-left: 4rem;
+       }
+      
+  .contact__form{
+       width: 50%;
+       margin-top: 1rem;
+        margin-left: 4rem;
+      }
+ 
+
+  .contact__data{
+        margin-top: 2rem;
+       
+      }
+  
+
+   }
+
+@media screen and (max-width: 580px){
+  
+ .section__title{
+  font-size: 1.1rem;
+ }
+ .contact__subtitle{
+  font-size: 1rem;
+  margin-top: 1rem;
+ }
+ .ri-mail-line .contact__label{
+  font-size: 1rem;
+ }
+
+ .contact__container{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+ }
+ 
+ .button_contact{
+  background-color: var(--first-color);
+  color: #fff;
+  font-size: 0.8rem;
+  padding:1rem 2rem;
+  border-radius: 0.5rem;
+ }
+
+ .contact__box{
+  width: 90%;
+  margin-left: 0.4rem;
+  }
+ 
+.contact__form{
+  width: 90%;
+  margin-top: 0.2rem;
+  margin-left: 0.4rem;
+ }
+
+ }
+
+
+
+ 
+  

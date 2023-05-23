@@ -1,0 +1,61 @@
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+@media screen and (max-width: 800px) {
+    .home__container {
+    justify-content: center;
+    padding-left: 1rem;
+    }
+    .home_data {
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+    }
+    .home__img {
+    max-width: 100%;
+    }
+    .home__title {
+      font-size: var(--mb-2-5);
+    }
+    }
+  
+   @media screen and (max-width: 500px) {
+    .infordados {
+      padding-right: 2rem;
+    }
+  .home__description {
+   font-size: 1.4ch;
+  }
+  .footer__subscribe {
+    padding-right: 6rem;
+  }
+  .button--flex {
+    max-width: 50%;
+  }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .container {
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+    }
+  
+    .home__img {
+      width: 180px;
+    }
+  
+    .home__title {
+      font-size: var(--h1-font-size);
+    }
+  
+    .steps__bg {
+      padding: 2rem 1rem;
+    }
+  
+    .steps__card {
+      padding: 1.5rem;
+    }
+  
+    .product__container {
+      grid-template-columns: 0.6fr;
+    }
+  }
