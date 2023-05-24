@@ -15,7 +15,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #1A1C23;
+      background-color: #20222b;
       height: 4rem;
       border-radius: 1rem;
     }
@@ -29,7 +29,10 @@
      flex-direction: row;
      
     }
-  
+    
+    .theme-button-mobile{
+      color: #fff;
+    }
     
   }
   
@@ -38,6 +41,10 @@
     .nav__link__mobile{
       display: none;
       
+    }
+
+    .theme-button-mobile{
+    display: none;
     }
   }
 
