@@ -3,6 +3,9 @@ html{
   padding: 0 2.5%;
 }
 
+.link_email_contato{
+  color: #fff;
+}
 .detal{
   color: var(--first-color);
 }
