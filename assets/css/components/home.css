@@ -339,6 +339,10 @@ html{
         
         
       }
+
+      .about__img {
+       margin-right: 1rem;  
+      }
     
       .project__content2{
         display: flex;
@@ -426,12 +430,6 @@ html{
         .img_home_logos{
           width: 4rem;
         }
-
-        .project__container{
-          
-          
-        }
-  
         .project__content1{
           display: flex;
           flex-direction: column;
