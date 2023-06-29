@@ -92,7 +92,14 @@
   .img_valores {
    width: 20rem;
    height: 28rem;
+   margin-top: 2rem;
  }
+
+ .img_valores1 {
+  width: 20rem;
+  height: 28rem;
+  margin-top: 2rem;
+}
 
 
   @media(max-width: 480px) {
