@@ -23,8 +23,9 @@ html{
   }
   
   .home__img{
-    height: 25rem;
-    margin-bottom: 2rem;
+    height: 26rem;
+    margin-bottom: 3rem;
+    margin-top: -5rem;
     margin-left: 2rem;
    
   }
@@ -32,7 +33,7 @@ html{
   .infordados{
     display: flex;
     justify-content:flex-start;
-    padding-top: 2rem;
+    padding-top: 1rem;
     
   }
   .infor{
@@ -50,9 +51,10 @@ html{
   
   
   .home__title {
-    font-size: var(--big-font-size);
+    font-size: 2.8rem;
     line-height: 140%;
     margin-bottom: var(--mb-1);
+    margin-top: -3rem;
   }
   
   .home__description {

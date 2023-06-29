@@ -19,7 +19,7 @@
 }
 
 .about_container_tittle{
-  margin-left: 5%
+  margin-left: 10%
 }
 .aboutUs_text{
   margin-top: 0.8rem;
@@ -266,7 +266,7 @@ flex-direction: column;
 @media (min-width: 580px) and (max-width: 880px){
   .about_content{
     width: 100%;
-    margin-left: 10%;
+    margin-left: 15%;
   }
   
   .about_container_us-geral{
