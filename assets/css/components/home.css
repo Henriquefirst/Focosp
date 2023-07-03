@@ -276,7 +276,7 @@ html{
     @media screen and (max-width: 580px) {
       
       .home_section {
-        padding: 0.011rem 0.02rem;
+        padding: 2.011rem 0.02rem;
       }
       .home__container{
         display: flex;
@@ -364,7 +364,7 @@ html{
     
     @media screen and (max-width: 380px){
       .home_section {
-        padding: 0.011rem 0.01rem;
+        padding: 3.011rem 0.01rem;
       }
       .home__container{
         display: flex;
@@ -385,6 +385,7 @@ html{
       .home__subscribe{
         width: 95%;
         padding-right: 0.4rem;
+        margin-left: -0.5rem;
         
        
       }
@@ -402,15 +403,32 @@ html{
       }
 
 
+      .infordados {
+       margin-left: -1.4rem;
+       padding: 0.5rem;
+       margin-top: 0.5rem;
+      }
+
       .button_home {
 
         background-color: var(--first-color);
         color: #fff;
         padding: 0.6rem 0.3rem;
+        margin-left: -1.6rem;
         border-radius: 0.5rem;
         font-size: 0.70rem;
       }
 
+
+      .button_aboutUs_container {
+        margin-left: -5rem;
+        width: 5%;
+      }
+
+      .button_aboutUs {
+        margin-left: -2rem;
+        padding: 0 0 1rem;
+      }
     
       
   
@@ -422,6 +440,7 @@ html{
 
         .home__input {
           font-size: 0.70rem;
+          margin-left: -0.5rem;
         }
 
         
@@ -449,6 +468,10 @@ html{
           height: 2rem;
          
           
+        }
+
+        .margin__aboutUs {
+          margin-left: -3rem;
         }
        
         
