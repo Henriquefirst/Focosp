@@ -102,11 +102,12 @@
 }
 
 
-  @media(max-width: 480px) {
+  @media(max-width: 380px) {
    .img_valores {
-     width: 20rem;
-     margin-bottom: 3rem;
-     margin-left: 2rem;
+     width: 13rem;
+     height: 16rem;
+     margin-bottom: 2rem;
+     margin-left: 2.5rem;
       
    }
 

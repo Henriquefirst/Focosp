@@ -191,14 +191,13 @@ flex-direction: column;
 
     
   }
+
+  .about_container {
+   margin-left: 2rem;
+  }
   .about__details-description {
     font-size: 0.7rem;
     padding: 0;
-  }
-  .button_aboutUs_container{
-    width: 100%;
-    
-    
   }
   .about__data{
     margin-left:0;
@@ -256,6 +255,12 @@ flex-direction: column;
     margin-top: 1rem;
     
   }
+
+  .button_aboutUs {
+    width: 20%;
+  }
+
+
   .about__data{
     margin-left:0;
     display: flex;
