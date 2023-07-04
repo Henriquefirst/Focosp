@@ -198,8 +198,14 @@
   margin-left: 0.4rem;
  }
 
- }
 
+ @media screen and (max-width: 380px){
+  .contact__container {
+    margin-left: 1rem;
+  }
+
+ }
+}
 
 
  

@@ -45,8 +45,8 @@ html{
       padding: 1rem 5rem;
     }
   
-  .home__font {
-    color: var(--first-color);
+    .home__font {
+     color: var(--first-color);
   }
   
   
@@ -398,13 +398,17 @@ html{
         font-size: 0.75rem;
       }
 
+      .home__description1{
+        font-size: 0.65rem;
+      }
+
       .infor{
         margin-left: 1rem;
       }
 
 
       .infordados {
-       margin-left: -1.4rem;
+       margin-left: -0.9rem;
        padding: 0.5rem;
        margin-top: 0.5rem;
       }
@@ -429,8 +433,6 @@ html{
         margin-left: -2rem;
         padding: 0 0 1rem;
       }
-    
-      
   
         .home__title {
           font-size: var(--h1-font-size);
@@ -470,12 +472,12 @@ html{
           
         }
 
-        .margin__aboutUs {
-          margin-left: -3rem;
-        }
+         .about__img {
+           margin-right: 1rem;
+        }    
        
         
-    }
+         }
     
     
 

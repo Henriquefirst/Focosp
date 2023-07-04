@@ -177,3 +177,11 @@
    margin-top: 1rem;
   }
  }
+
+ @media screen and (max-width: 380px) {
+  .footer__container {
+    margin-left: 1.5rem;
+  }
+  
+
+ }
