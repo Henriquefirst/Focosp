@@ -92,7 +92,8 @@
   .img_valores {
    width: 20rem;
    height: 28rem;
-   margin-top: 2rem;
+   margin-top: 0rem;
+   margin-bottom: 2rem;
  }
 
  .img_valores1 {
