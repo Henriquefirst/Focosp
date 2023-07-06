@@ -385,3 +385,13 @@ flex-direction: column;
      margin-right: 4rem;
     }
 }
+
+@media (min-width: 370px) {
+  .button_aboutUs_container {
+    margin-bottom: 2.5rem;
+  }
+
+  .button_home {
+    margin-left: -2.7rem;
+  }
+}
