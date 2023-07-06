@@ -394,4 +394,8 @@ flex-direction: column;
   .button_home {
     margin-left: -2.7rem;
   }
+  .infordados {
+    margin-left: -0.7rem;
+    font-size: 0.75rem;
+  }
 }
