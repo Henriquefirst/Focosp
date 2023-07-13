@@ -353,6 +353,9 @@ flex-direction: column;
       position: static;
      
     }
+    .home__input {
+      font-size: 1.5rem;
+    }
 }
 
 
