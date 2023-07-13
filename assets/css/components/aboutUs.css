@@ -384,6 +384,9 @@ flex-direction: column;
       position: static;
      margin-right: 4rem;
     }
+  .home__input {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 370px) {
