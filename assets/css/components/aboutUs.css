@@ -388,7 +388,7 @@ flex-direction: column;
      margin-right: 4rem;
     }
   .home__input {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -398,7 +398,7 @@ flex-direction: column;
   }
 
   .home__input {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .button_home {
