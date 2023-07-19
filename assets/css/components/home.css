@@ -486,6 +486,14 @@ html{
             margin-left: 1.5rem;
           }
          }
+
+         @media (max-width: 360px){
+          .button_home {
+          margin-left: -2.5rem;
+          }
+
+
+         }
     
     
 
