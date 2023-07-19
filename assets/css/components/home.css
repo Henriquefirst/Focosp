@@ -417,7 +417,7 @@ html{
         background-color: var(--first-color);
         color: #fff;
         padding: 0.6rem 0.3rem;
-        margin-left: -1rem;
+        margin-left: -10rem;
         border-radius: 0.5rem;
         font-size: 0.70rem;
       }
