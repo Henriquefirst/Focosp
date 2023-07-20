@@ -158,7 +158,7 @@
  
   }
 
-  @media(min-width: 400px){
+  @media(min-width: 380px) {
     .accordion-content {
       font-size: 0.8rem;
     }
