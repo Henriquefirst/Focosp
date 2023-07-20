@@ -404,4 +404,12 @@ flex-direction: column;
     margin-left: -0.7rem;
     font-size: 0.75rem;
   }
+  .button__home {
+
+  }
+  .home__input {
+    width: 70%;
+    font-size: 0.7rem;
+  }
 }
+
