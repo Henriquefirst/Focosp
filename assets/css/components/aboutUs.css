@@ -405,11 +405,37 @@ flex-direction: column;
     font-size: 0.75rem;
   }
   .button__home {
-
+   margin-left: 0rem;
   }
   .home__input {
     width: 70%;
     font-size: 0.7rem;
   }
+}
+
+@media (min-width: 360px) {
+  .button_aboutUs_container {
+    margin-bottom: 2.5rem;
+  }
+
+  .home__input {
+    font-size: 0.9rem;
+  }
+  .infordados {
+    margin-left: -0.7rem;
+    font-size: 0.75rem;
+  }
+  .button_home {
+   margin-left: 0rem;
+  }
+  .home__input {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .button_home {
+    margin-left: 0rem;
+    }
 }
 
