@@ -480,20 +480,6 @@ html{
        
         
          }
-
-         @media (max-width: 370px){
-          .button_home {
-            margin-left: 1.5rem;
-          }
-         }
-
-         @media (max-width: 380px){
-          .button_home {
-          margin-left: 10rem;
-          }
-
-
-         }
     
     
 
