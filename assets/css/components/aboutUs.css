@@ -433,9 +433,5 @@ flex-direction: column;
   }
 }
 
-@media (max-width: 360px) {
-  .button_home {
-    margin-left: 0rem;
-    }
-}
+
 
