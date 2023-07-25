@@ -260,6 +260,9 @@ flex-direction: column;
   .button_aboutUs {
     width: 80%;
   }
+  .newsletter__input {
+    font-size: 0.6rem;
+  }
   
 
   .about__data{

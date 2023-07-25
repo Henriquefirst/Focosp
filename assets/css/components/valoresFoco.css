@@ -132,7 +132,7 @@
   .tittle_valores_icon {
    color: var( --small-font-size);
    font-size: 0.70rem;
-   margin-top: 1.1rem;
+   margin-top: 1rem;
    margin-left: 0.95rem;
   }
   
@@ -164,7 +164,7 @@
     .tittle_valores_icon {
       font-size: 0.6rem;
       margin-right: 3rem;
-      margin-top: 1rem;
+      margin-top: 0.9rem;
     }
     .img_valores {
      width: 80%;
