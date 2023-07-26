@@ -388,9 +388,9 @@ html{
       }
       
       .home__subscribe{
-        width: 95%;
-        padding-right: 0.4rem;
-        margin-left: -0.5rem;
+        width: 70vw;
+        padding-right: 1rem;
+        margin-left: 0rem;
         
        
       }
@@ -426,6 +426,8 @@ html{
         margin-right: 0rem;
         border-radius: 0.5rem;
         font-size: 0.70rem;
+ 
+      
       }
 
 
