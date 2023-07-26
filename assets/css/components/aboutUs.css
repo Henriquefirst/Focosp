@@ -38,7 +38,7 @@
 
 .section_about_us_container{
   margin-top: 10%;
-  margin-right: 4rem;
+  margin-left: 4rem;
 }
 
 
@@ -172,6 +172,13 @@ flex-direction: column;
     width: 100%;
     margin-left: 5%;
   }
+  .section_about_us_container {
+    margin-left: -2rem;
+    width: 100%;
+  }
+  .button_aboutUs {
+    width: 90%;
+  }
   
   .about_container_us-geral{
     width: 100%;
@@ -233,8 +240,8 @@ flex-direction: column;
   }
 
   .about__details-icon-img {
-    width: 14%;
-    height: 6%;
+    width: 9%;
+    height: 0%;
     position: static;
   }
   
@@ -242,6 +249,9 @@ flex-direction: column;
     width: 100%;
     margin-left: 1rem;
   
+  }
+  .section_about_us_container {
+    margin-left: -1rem;
   }
   
   .about__description{
