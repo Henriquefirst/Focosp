@@ -293,8 +293,10 @@ html{
       }
       
       .home__subscribe{
-        width: 90%;
-        padding: 0.4rem 1rem;
+        width: 70vw;
+        padding-right: 1rem;
+        margin-left: 0rem;
+        background-color: aqua;
        
       }
       .button_home {
