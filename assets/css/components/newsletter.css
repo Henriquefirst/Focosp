@@ -29,13 +29,14 @@
 }
 
 .newsletter {
-  width: 100%;
+  width: 90%;
   background-color:#23262f;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 1rem 1rem 1rem 1rem;
   padding: 4rem 2rem;
+  margin-left: 4.5rem;
 }
 
 .newsletter__subscribe {
@@ -44,7 +45,7 @@
   display: flex;
   justify-content: space-between;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 20%;
 }
 
 .newsletter__button {
@@ -62,6 +63,7 @@
   .newsletter_container{
       width: 100%;
       padding-left: 10%;
+      margin-left: -4rem;
     
     }
 
@@ -96,7 +98,7 @@
 @media screen and (min-width: 580px){
   .newsletter_container{
       width: 100%;
-      padding-left: 10%;
+      margin-left: -4rem;
     
     }
     
@@ -160,10 +162,4 @@
       width: 100%;
      
     }
-    @media screen and (max-width: 380px){
-      .newsletter__description{
-        font-size: 2.5rem;
-      }
-      }
 }
-

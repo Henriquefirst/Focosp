@@ -177,9 +177,6 @@
     .intro_valores {
       margin-left: 1.5rem;
     }
-    .newsletter_container {
-      margin-left: -0.5rem;
-    }
    }
 
   @media(min-width: 480px) and (max-width: 680px){
