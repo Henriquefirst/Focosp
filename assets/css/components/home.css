@@ -213,6 +213,14 @@ html{
     margin-left: 1rem;
     
   }
+  .home__container{
+    margin-top: 5rem;
+  }
+  .project__container {
+    width: 150%;
+    margin-left: -6rem;
+    display: flex;
+  }
   
    
     }

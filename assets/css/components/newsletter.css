@@ -63,7 +63,7 @@
   .newsletter_container{
       width: 100%;
       padding-left: 10%;
-      margin-left: -4rem;
+      margin-left: -8rem;
     
     }
 
@@ -98,7 +98,7 @@
 @media screen and (min-width: 580px){
   .newsletter_container{
       width: 100%;
-      margin-left: -4rem;
+      margin-left: -8rem;
     
     }
     

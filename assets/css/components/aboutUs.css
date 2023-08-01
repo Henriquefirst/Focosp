@@ -305,7 +305,7 @@ flex-direction: column;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
+    padding-left: -20%;
   
     
   }
