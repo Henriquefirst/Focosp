@@ -237,6 +237,7 @@
 
   .tittle_valores_icon {
    margin-top: 0.9rem;
+   font-size: 0.9rem;
    }
 
   .accordion-content {
@@ -266,9 +267,12 @@
      width: 18rem;
      max-height: 25rem;
      margin-bottom: 4rem;
+    }
    
-      
-   }
+     .tittle_valores_icon {
+      font-size: 0.9rem;
+     }
+
    .container_content{
      margin-left: 2rem;
    }
