@@ -328,6 +328,9 @@ html{
       .home__description1 {
         font-size: 0.75rem;
       }
+      .home__subscribe {
+        max-width: 90%;
+      }
 
 
       .button_home {
