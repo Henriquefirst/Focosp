@@ -351,12 +351,14 @@ html{
 
       .project__container{
         display: flex;
+        margin-right: 1rem;
         
       }
       .project__content1{
         display: flex;
         flex-direction: column;
-        margin-left: 1rem;
+        margin-right: -4.5rem;
+        margin-left: 2rem;
         width: 25%;
         
       }
@@ -368,7 +370,7 @@ html{
       .project__content2{
         display: flex;
         flex-direction: column;
-        margin-left: 2rem;
+        margin-left: 5.5rem;
         width: 25%;
    
       }
