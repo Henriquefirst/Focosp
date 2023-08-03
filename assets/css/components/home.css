@@ -481,7 +481,7 @@ html{
         .project__content1{
           display: flex;
           flex-direction: column;
-          margin-right: -0rem;
+          margin-left: 3.8rem;
           width: 20%;
           
           
@@ -490,7 +490,7 @@ html{
         .project__content2{
           display: flex;
           flex-direction: column;
-          margin-right: -1.8rem;
+          margin-right: 1.5rem;
           width: 20%;
         }
         .img_produtos{
@@ -504,7 +504,8 @@ html{
            margin-right: 1rem;
         }
         .project__container {
-         margin-top: 5rem;
+         margin-top: 3rem;
+         margin-right: 2rem;
         }    
         
          }
