@@ -356,7 +356,8 @@ html{
       .project__content1{
         display: flex;
         flex-direction: column;
-        
+        margin-left: 0rem;
+        width: 30%;
         
       }
 
@@ -367,7 +368,7 @@ html{
       .project__content2{
         display: flex;
         flex-direction: column;
-        margin-left: 2rem;
+        margin-left: 0rem;
    
       }
       .img_produtos{
@@ -477,6 +478,8 @@ html{
         .project__content1{
           display: flex;
           flex-direction: column;
+          margin-right: -0rem;
+          width: 20%;
           
           
         }
@@ -484,7 +487,8 @@ html{
         .project__content2{
           display: flex;
           flex-direction: column;
-          margin-left: 1rem;
+          margin-right: -1.8rem;
+          width: 20%;
         }
         .img_produtos{
           width: 8rem;
