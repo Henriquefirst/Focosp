@@ -464,5 +464,11 @@ flex-direction: column;
   }
 }
 
+@media screen and (max-width: 380px) {
+  .button_aboutUs1 {
+    width: 60%;
+
+  }
+}
 
 

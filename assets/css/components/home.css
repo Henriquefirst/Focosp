@@ -358,8 +358,8 @@ html{
         display: flex;
         flex-direction: column;
         margin-right: -4.5rem;
-        margin-left: 2rem;
-        width: 25%;
+        margin-left: 0rem;
+        width: 22%;
         
       }
 
@@ -371,7 +371,7 @@ html{
         display: flex;
         flex-direction: column;
         margin-left: 5.5rem;
-        width: 25%;
+        width: 22%;
    
       }
       .img_produtos{
