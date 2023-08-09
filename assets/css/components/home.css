@@ -284,6 +284,7 @@ html{
       
       .home_section {
         padding: 2.011rem 0.02rem;
+        margin-right: 1rem;
       }
       .home__container{
         display: flex;
@@ -323,7 +324,7 @@ html{
         margin-left: 1.5rem;
       }
       .infordados {
-        margin-left: -0.2rem;
+        margin-left: -0.6rem;
       }
       .home__description1 {
         font-size: 0.75rem;
@@ -444,8 +445,6 @@ html{
         margin-right: 0rem;
         border-radius: 0.5rem;
         font-size: 0.70rem;
- 
-      
       }
 
 
