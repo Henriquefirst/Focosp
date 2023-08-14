@@ -198,7 +198,7 @@
       
    }
    .description {
-    font-size: 0.8rem;
+    font-size: 0.70rem;
    }
 
   
@@ -271,6 +271,9 @@
  .container_content{
    padding-left: 15%;
  }
+ .description {
+  font-size: 0.8rem;
+ }
   }
 
 
@@ -299,6 +302,9 @@
    .section_valores {
     padding-left: 5%;
     
+     }
+     .description {
+      font-size: 0.8rem;
      }
  }
 
