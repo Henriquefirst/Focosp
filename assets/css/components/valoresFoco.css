@@ -163,6 +163,15 @@
  }
  
   }
+  @media(min-width: 300px) {
+    .tittle_valores_icon {
+      font-size: 0.6rem;
+      color: var(--title-color);
+    }
+    .description {
+      font-size: 0.55rem;
+    }
+  }
 
   @media(min-width: 380px) {
     .accordion-content {
