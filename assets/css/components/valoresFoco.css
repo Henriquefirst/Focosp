@@ -163,7 +163,7 @@
  }
  
   }
-  @media(min-width: 290px) {
+  @media(min-width: 275px) {
     .tittle_valores_icon {
       font-size: 0.6rem;
       color: var(--title-color);
