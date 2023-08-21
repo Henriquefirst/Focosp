@@ -162,6 +162,12 @@
    font-size: var(--normal-font-size);
  }
  
+ @media(min-width: 200px) {
+  .description {
+    font-size: 0.45rem;
+  }
+ }
+
   }
   @media(min-width: 275px) {
     .tittle_valores_icon {
