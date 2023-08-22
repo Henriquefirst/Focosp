@@ -102,13 +102,6 @@
 }
 
 
-
-@media(min-width: 360px) {
-  .description {
-    font-size: 0.6rem;
-   }
-}
-
   @media(max-width: 380px) {
    .img_valores {
      width: 13rem;
@@ -175,7 +168,7 @@
       color: var(--title-color);
     }
     .description {
-      font-size: 0.55rem;
+      font-size: 0.7rem;
     }
   }
 

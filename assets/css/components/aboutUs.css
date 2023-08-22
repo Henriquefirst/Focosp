@@ -240,9 +240,12 @@ flex-direction: column;
   }
 
   .about__details-icon-img {
-    width: 9%;
+    width: 8%;
     height: 0%;
     position: static;
+  }
+  .infordados {
+   margin-left: 0.1rem;
   }
   
   .about__container-geral{
@@ -291,6 +294,12 @@ flex-direction: column;
       position: static;
       margin-left: 9%;
       margin-bottom: 1rem;
+    }
+    .project__content1 {
+      margin-left: -2rem;
+    }
+    .project__content2 {
+      margin-left: 1rem;
     }
 }
 
