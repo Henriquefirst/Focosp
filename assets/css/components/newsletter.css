@@ -36,7 +36,7 @@
   align-items: center;
   border-radius: 1rem 1rem 1rem 1rem;
   padding: 4rem 2rem;
-  margin-left: 12rem;
+  margin-left: 15.5rem;
 }
 
 .newsletter__subscribe {
@@ -63,7 +63,7 @@
   .newsletter_container{
       width: 100%;
       padding-left: 10%;
-      margin-left: -12rem;
+      margin-left: -15rem;
     
     }
 
@@ -97,7 +97,7 @@
 @media screen and (min-width: 580px){
   .newsletter_container{
       width: 100%;
-      margin-left: -8rem;
+      margin-left: -13rem;
     
     }
     
